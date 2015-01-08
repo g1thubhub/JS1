@@ -1,0 +1,2562 @@
+[ {
+  "site" : "Site name",
+  "area" : "Area",
+  "zip_code" : "Zip",
+  "map_location" : {
+    "needs_recoding" : true,
+    "human_address" : "{\"address\":\"Address\",\"city\":\"Area\",\"state\":\"State\",\"zip\":\"Zip\"}"
+  },
+  "location" : "Address",
+  "state" : "State",
+  "coordinates" : "latitude,longitude"
+}
+, {
+  "site" : "Charles River CG",
+  "area" : "Allston",
+  "zip_code" : "2135",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.1449486019716",
+    "latitude" : "42.362343945508776",
+    "human_address" : "{\"address\":\"1450 Soldiers Field Rd.\",\"city\":\"Allston\",\"state\":\"MA\",\"zip\":\"2135\"}"
+  },
+  "location" : "1450 Soldiers Field Rd.",
+  "state" : "MA",
+  "coordinates" : "42.3611199,-71.1466786"
+}
+, {
+  "site" : "Chestnut Hill Reservoir Garden",
+  "area" : "Allston",
+  "zip_code" : "2135",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.13213999996088",
+    "latitude" : "42.353229999664904",
+    "human_address" : "{\"address\":\"Chestnut Hill Driveway&nbsp;\",\"city\":\"Allston\",\"state\":\"MA\",\"zip\":\"2135\"}"
+  },
+  "location" : "Chestnut Hill Driveway ",
+  "state" : "MA",
+  "coordinates" : "42.3383955,-71.1569408"
+}
+, {
+  "site" : "Christian Herter Garden",
+  "area" : "Allston",
+  "zip_code" : "2134",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.13262930975533",
+    "latitude" : "42.36633047520517",
+    "human_address" : "{\"address\":\"1155 Soldiers Field Rd.\",\"city\":\"Allston\",\"state\":\"MA\",\"zip\":\"2134\"}"
+  },
+  "location" : "1155 Soldiers Field Rd.",
+  "state" : "MA",
+  "coordinates" : "42.3644362,-71.1362815"
+}
+, {
+  "site" : "Commonwealth Tenants Association CG",
+  "area" : "Allston",
+  "zip_code" : "2135",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.14380609078314",
+    "latitude" : "42.34593927238901",
+    "human_address" : "{\"address\":\"35 Fidelis Way\",\"city\":\"Allston\",\"state\":\"MA\",\"zip\":\"2135\"}"
+  },
+  "location" : "35 Fidelis Way",
+  "state" : "MA",
+  "coordinates" : "42.345578,-71.1433738"
+}
+, {
+  "site" : "Jackson Mann School Garden",
+  "area" : "Allston",
+  "zip_code" : "2134",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.13854338564968",
+    "latitude" : "42.353068632256054",
+    "human_address" : "{\"address\":\"500 Cambridge St.\",\"city\":\"Allston\",\"state\":\"MA\",\"zip\":\"2134\"}"
+  },
+  "location" : "500 Cambridge St.",
+  "state" : "MA",
+  "coordinates" : "42.3532753,-71.1377981"
+}
+, {
+  "site" : "Penniman Rd. Garden",
+  "area" : "Allston",
+  "zip_code" : "2134",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.13213999996088",
+    "latitude" : "42.353229999664904",
+    "human_address" : "{\"address\":\"30 Penniman Rd.&nbsp;\",\"city\":\"Allston\",\"state\":\"MA\",\"zip\":\"2134\"}"
+  },
+  "location" : "30 Penniman Rd. ",
+  "state" : "MA",
+  "coordinates" : "42.3556407,-71.1364847"
+}
+, {
+  "site" : "Blackwood/Claremont Garden",
+  "area" : "Back Bay",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08135845805833",
+    "latitude" : "42.34294351453656",
+    "human_address" : "{\"address\":\"1 Claremont St.\",\"city\":\"Back Bay\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "1 Claremont St.",
+  "state" : "MA",
+  "coordinates" : "42.342612,-71.081481"
+}
+, {
+  "site" : "Follen Garden",
+  "area" : "Back Bay",
+  "zip_code" : "2116",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08003645467528",
+    "latitude" : "42.347637975529494",
+    "human_address" : "{\"address\":\"Follen St. and Braddock Park&nbsp;\",\"city\":\"Back Bay\",\"state\":\"MA\",\"zip\":\"2116\"}"
+  },
+  "location" : "Follen St. and Braddock Park ",
+  "state" : "MA",
+  "coordinates" : "42.344945,-71.079164"
+}
+, {
+  "site" : "Greenwich/Cumberland Garden",
+  "area" : "Back Bay",
+  "zip_code" : "2116",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08003645467528",
+    "latitude" : "42.347637975529494",
+    "human_address" : "{\"address\":\"Greenwich Park and Cumberland St.&nbsp;\",\"city\":\"Back Bay\",\"state\":\"MA\",\"zip\":\"2116\"}"
+  },
+  "location" : "Greenwich Park and Cumberland St. ",
+  "state" : "MA",
+  "coordinates" : "42.343526,-71.081082"
+}
+, {
+  "site" : "Harcourt/West Canton Garden",
+  "area" : "Back Bay",
+  "zip_code" : "2116",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08003645467528",
+    "latitude" : "42.347637975529494",
+    "human_address" : "{\"address\":\"Harcourt St. and West Canton St.&nbsp;\",\"city\":\"Back Bay\",\"state\":\"MA\",\"zip\":\"2116\"}"
+  },
+  "location" : "Harcourt St. and West Canton St. ",
+  "state" : "MA",
+  "coordinates" : "42.345687,-71.078238"
+}
+, {
+  "site" : "Saranac/New Castle Garden",
+  "area" : "Boston",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.05669999960514",
+    "latitude" : "42.35862999957499",
+    "human_address" : "{\"address\":\"1-99 Watson St.\",\"city\":\"Boston\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "1-99 Watson St.",
+  "state" : "MA",
+  "coordinates" : "42.3399349,-71.0842108"
+}
+, {
+  "site" : "Larz Anderson Gardens",
+  "area" : "Brookline",
+  "zip_code" : "2445",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.13548391678643",
+    "latitude" : "42.30947859293878",
+    "human_address" : "{\"address\":\"25 Newton St.\",\"city\":\"Brookline\",\"state\":\"MA\",\"zip\":\"2445\"}"
+  },
+  "location" : "25 Newton St.",
+  "state" : "MA",
+  "coordinates" : "42.311704,-71.134543"
+}
+, {
+  "site" : "Corcoran Park Garden",
+  "area" : "Cambridge",
+  "zip_code" : "2140",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.12882467476476",
+    "latitude" : "42.386920361769285",
+    "human_address" : "{\"address\":\"186 Walden St.\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"2140\"}"
+  },
+  "location" : "186 Walden St.",
+  "state" : "MA",
+  "coordinates" : "42.386841,-71.128818"
+}
+, {
+  "site" : "Don McMath Park CG",
+  "area" : "Cambridge",
+  "zip_code" : "2140",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.13265945318207",
+    "latitude" : "42.39132905010158",
+    "human_address" : "{\"address\":\"150 Sherman St.\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"2140\"}"
+  },
+  "location" : "150 Sherman St.",
+  "state" : "MA",
+  "coordinates" : "42.3913372,-71.1327436"
+}
+, {
+  "site" : "Field of Dreams Gardens",
+  "area" : "Cambridge",
+  "zip_code" : "2138",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.1141814872464",
+    "latitude" : "42.36546569693379",
+    "human_address" : "{\"address\":\"30 Elmer St.\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"2138\"}"
+  },
+  "location" : "30 Elmer St.",
+  "state" : "MA",
+  "coordinates" : "42.3661438,-71.11419"
+}
+, {
+  "site" : "Fresh Pond Parkway Garden",
+  "area" : "Cambridge",
+  "zip_code" : "2138",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.14184854332963",
+    "latitude" : "42.38441468694992",
+    "human_address" : "{\"address\":\"300 Fresh Pond Pkwy\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"2138\"}"
+  },
+  "location" : "300 Fresh Pond Pkwy",
+  "state" : "MA",
+  "coordinates" : "42.3853328,-71.1412869"
+}
+, {
+  "site" : "Green St. Neighborhood Park",
+  "area" : "Cambridge",
+  "zip_code" : "2138",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11073031553525",
+    "latitude" : "42.3683133889831",
+    "human_address" : "{\"address\":\"Green St. and Bay St.\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"2138\"}"
+  },
+  "location" : "Green St. and Bay St.",
+  "state" : "MA",
+  "coordinates" : "42.368197,-71.110674"
+}
+, {
+  "site" : "Moore St. Neighborhood Park",
+  "area" : "Cambridge",
+  "zip_code" : "2139",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09386802748588",
+    "latitude" : "42.36591219916488",
+    "human_address" : "{\"address\":\"89 Moore St.\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"2139\"}"
+  },
+  "location" : "89 Moore St.",
+  "state" : "MA",
+  "coordinates" : "42.3659638,-71.0940312"
+}
+, {
+  "site" : "Neville Manor Garden",
+  "area" : "Cambridge",
+  "zip_code" : "2138",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.14868170517173",
+    "latitude" : "42.38969926683984",
+    "human_address" : "{\"address\":\"650 Concord Ave.\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"2138\"}"
+  },
+  "location" : "650 Concord Ave.",
+  "state" : "MA",
+  "coordinates" : "42.388905,-71.149032"
+}
+, {
+  "site" : "Sacramento St. Garden",
+  "area" : "Cambridge",
+  "zip_code" : "2138",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11757415617825",
+    "latitude" : "42.38259462280837",
+    "human_address" : "{\"address\":\"21 Sacramento St.\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"2138\"}"
+  },
+  "location" : "21 Sacramento St.",
+  "state" : "MA",
+  "coordinates" : "42.382778,-71.11757"
+}
+, {
+  "site" : "Simplex CG",
+  "area" : "Cambridge",
+  "zip_code" : "2139",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10375100248515",
+    "latitude" : "42.359397499143874",
+    "human_address" : "{\"address\":\"6 Emily St.\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"2139\"}"
+  },
+  "location" : "6 Emily St.",
+  "state" : "MA",
+  "coordinates" : "42.3601708,-71.1049671"
+}
+, {
+  "site" : "Squirrel Brand CG",
+  "area" : "Cambridge",
+  "zip_code" : "2139",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09472238341374",
+    "latitude" : "42.366811521194165",
+    "human_address" : "{\"address\":\"236 Broadway\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"2139\"}"
+  },
+  "location" : "236 Broadway",
+  "state" : "MA",
+  "coordinates" : "42.367349,-71.096763"
+}
+, {
+  "site" : "Watson St./Peggy Hayes Garden",
+  "area" : "Cambridge",
+  "zip_code" : "2139",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10417425794168",
+    "latitude" : "42.36198216189683",
+    "human_address" : "{\"address\":\"12 Watson St.\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"2139\"}"
+  },
+  "location" : "12 Watson St.",
+  "state" : "MA",
+  "coordinates" : "42.361886,-71.104279"
+}
+, {
+  "site" : "Whittemore Ave. Garden",
+  "area" : "Cambridge",
+  "zip_code" : "2140",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.13573146794982",
+    "latitude" : "42.39854859560813",
+    "human_address" : "{\"address\":\"25 Whittemore Ave.\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"2140\"}"
+  },
+  "location" : "25 Whittemore Ave.",
+  "state" : "MA",
+  "coordinates" : "42.398715,-71.135543"
+}
+, {
+  "site" : "Gordon St. Park",
+  "area" : "Cambridge",
+  "zip_code" : "2139",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11301122246901",
+    "latitude" : "42.35806740921577",
+    "human_address" : "{\"address\":\"6 Gordon St.\",\"city\":\"Cambridge\",\"state\":\"MA\",\"zip\":\"2139\"}"
+  },
+  "location" : "6 Gordon St.",
+  "state" : "MA",
+  "coordinates" : "42.4118196,-71.1279084"
+}
+, {
+  "site" : "13th St. Circle Garden",
+  "area" : "Charlestown",
+  "zip_code" : "2129",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.05188960219003",
+    "latitude" : "42.377940396743554",
+    "human_address" : "{\"address\":\"100 13 St.\",\"city\":\"Charlestown\",\"state\":\"MA\",\"zip\":\"2129\"}"
+  },
+  "location" : "100 13 St.",
+  "state" : "MA",
+  "coordinates" : "42.375349,-71.0491204"
+}
+, {
+  "site" : "8th St. Circle Garden",
+  "area" : "Charlestown",
+  "zip_code" : "2129",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.05814316781986",
+    "latitude" : "42.37155018249605",
+    "human_address" : "{\"address\":\"39 Constitution Wharf\",\"city\":\"Charlestown\",\"state\":\"MA\",\"zip\":\"2129\"}"
+  },
+  "location" : "39 Constitution Wharf",
+  "state" : "MA",
+  "coordinates" : "42.3748799,-71.0514326"
+}
+, {
+  "site" : "9th St. Circle Garden",
+  "area" : "Charlestown",
+  "zip_code" : "2129",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.05181250468344",
+    "latitude" : "42.375690687771986",
+    "human_address" : "{\"address\":\"3 Pier 7\",\"city\":\"Charlestown\",\"state\":\"MA\",\"zip\":\"2129\"}"
+  },
+  "location" : "3 Pier 7",
+  "state" : "MA",
+  "coordinates" : "42.3749084,-71.0508031"
+}
+, {
+  "site" : "Charlestown Sprouts Garden",
+  "area" : "Charlestown",
+  "zip_code" : "2129",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.05394838220154",
+    "latitude" : "42.38132277982703",
+    "human_address" : "{\"address\":\"70 Terminal St.\",\"city\":\"Charlestown\",\"state\":\"MA\",\"zip\":\"2129\"}"
+  },
+  "location" : "70 Terminal St.",
+  "state" : "MA",
+  "coordinates" : "42.3820535,-71.0577314"
+}
+, {
+  "site" : "Gardens for Charlestown",
+  "area" : "Charlestown",
+  "zip_code" : "2129",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07077721420399",
+    "latitude" : "42.383686683122605",
+    "human_address" : "{\"address\":\"555 Medford St.\",\"city\":\"Charlestown\",\"state\":\"MA\",\"zip\":\"2129\"}"
+  },
+  "location" : "555 Medford St.",
+  "state" : "MA",
+  "coordinates" : "42.3836094,-71.0710445"
+}
+, {
+  "site" : "West Prescott School Garden",
+  "area" : "Charlestown",
+  "zip_code" : "2129",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06432224081314",
+    "latitude" : "42.3777659866045",
+    "human_address" : "{\"address\":\"41 School St.\",\"city\":\"Charlestown\",\"state\":\"MA\",\"zip\":\"2129\"}"
+  },
+  "location" : "41 School St.",
+  "state" : "MA",
+  "coordinates" : "42.3778308,-71.064333"
+}
+, {
+  "site" : "Chelsea CG",
+  "area" : "Chelsea",
+  "zip_code" : "2150",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.03698590913268",
+    "latitude" : "42.38854813464235",
+    "human_address" : "{\"address\":\"34 Hawthorn St.\",\"city\":\"Chelsea\",\"state\":\"MA\",\"zip\":\"2150\"}"
+  },
+  "location" : "34 Hawthorn St.",
+  "state" : "MA",
+  "coordinates" : "42.3885883,-71.0370123"
+}
+, {
+  "site" : "CNHS Garden",
+  "area" : "Chelsea",
+  "zip_code" : "2150",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.03422499050271",
+    "latitude" : "42.38750492108835",
+    "human_address" : "{\"address\":\"19 Shawmut St.\",\"city\":\"Chelsea\",\"state\":\"MA\",\"zip\":\"2150\"}"
+  },
+  "location" : "19 Shawmut St.",
+  "state" : "MA",
+  "coordinates" : "42.3874956,-71.0341198"
+}
+, {
+  "site" : "10 Josephine St. Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2122",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06544045813973",
+    "latitude" : "42.30042356899122",
+    "human_address" : "{\"address\":\"10 Josephine St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2122\"}"
+  },
+  "location" : "10 Josephine St.",
+  "state" : "MA",
+  "coordinates" : "42.3005383,-71.0654838"
+}
+, {
+  "site" : "29 Josephine St. Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2122",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06422637340017",
+    "latitude" : "42.30069336560001",
+    "human_address" : "{\"address\":\"29 Josephine St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2122\"}"
+  },
+  "location" : "29 Josephine St. ",
+  "state" : "MA",
+  "coordinates" : "42.3005305,-71.0641423"
+}
+, {
+  "site" : "Audrey Jacobs Memorial CG",
+  "area" : "Dorchester",
+  "zip_code" : "2121",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07367824792811",
+    "latitude" : "42.302150267287516",
+    "human_address" : "{\"address\":\"32 Bullard St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2121\"}"
+  },
+  "location" : "32 Bullard St. ",
+  "state" : "MA",
+  "coordinates" : "42.302,-71.073579"
+}
+, {
+  "site" : "Barry St. Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2125",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06839023439585",
+    "latitude" : "42.308778270643415",
+    "human_address" : "{\"address\":\"39 Barry St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2125\"}"
+  },
+  "location" : "39 Barry St. ",
+  "state" : "MA",
+  "coordinates" : "42.3088727,-71.06854"
+}
+, {
+  "site" : "Bellevue Park",
+  "area" : "Dorchester",
+  "zip_code" : "2125",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0681743971088",
+    "latitude" : "42.31135033164725",
+    "human_address" : "{\"address\":\"7 Stanley St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2125\"}"
+  },
+  "location" : "7 Stanley St.",
+  "state" : "MA",
+  "coordinates" : "42.3114533,-71.0683371"
+}
+, {
+  "site" : "Bullard St. Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2121",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07381314623251",
+    "latitude" : "42.30215926050778",
+    "human_address" : "{\"address\":\"33 Bullard St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2121\"}"
+  },
+  "location" : "33 Bullard St. ",
+  "state" : "MA",
+  "coordinates" : "42.302295,-71.073915"
+}
+, {
+  "site" : "Clayborne St. Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0717986648869",
+    "latitude" : "42.29822922323973",
+    "human_address" : "{\"address\":\"42 Claybourne St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "42 Claybourne St. ",
+  "state" : "MA",
+  "coordinates" : "42.2982196,-71.071856"
+}
+, {
+  "site" : "Clementine Park",
+  "area" : "Dorchester",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06520612424261",
+    "latitude" : "42.29209439772519",
+    "human_address" : "{\"address\":\"163 Centre St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "163 Centre St.",
+  "state" : "MA",
+  "coordinates" : "42.2920718,-71.0654619"
+}
+, {
+  "site" : "Columbia Point CG",
+  "area" : "Dorchester",
+  "zip_code" : "2125",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06340000010977",
+    "latitude" : "42.30786999970087",
+    "human_address" : "{\"address\":\"255-265 Mt. Vernon St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2125\"}"
+  },
+  "location" : "255-265 Mt. Vernon St. ",
+  "state" : "MA",
+  "coordinates" : "42.3187111,-71.0447587"
+}
+, {
+  "site" : "Dorchester Education Complex Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06340000010977",
+    "latitude" : "42.30786999970087",
+    "human_address" : "{\"address\":\"9 Peacevale Rd.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "9 Peacevale Rd. ",
+  "state" : "MA",
+  "coordinates" : "42.2877741,-71.0766039"
+}
+, {
+  "site" : "Erie/Ellington Sts. Park",
+  "area" : "Dorchester",
+  "zip_code" : "2121",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06340000010977",
+    "latitude" : "42.30786999970087",
+    "human_address" : "{\"address\":\"72-78 Erie St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2121\"}"
+  },
+  "location" : "72-78 Erie St. ",
+  "state" : "MA",
+  "coordinates" : "42.301924,-71.081331"
+}
+, {
+  "site" : "Esperanza Garden/Garden of Hope ",
+  "area" : "Dorchester",
+  "zip_code" : "2125",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07049345091133",
+    "latitude" : "42.31740083326493",
+    "human_address" : "{\"address\":\"45 Magnolia St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2125\"}"
+  },
+  "location" : "45 Magnolia St.",
+  "state" : "MA",
+  "coordinates" : "42.3173187,-71.0705589"
+}
+, {
+  "site" : "Fannie Lou Hamer CG",
+  "area" : "Dorchester",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06340000010977",
+    "latitude" : "42.30786999970087",
+    "human_address" : "{\"address\":\"103-109 Greenbriar St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "103-109 Greenbriar St. ",
+  "state" : "MA",
+  "coordinates" : "42.296273,-71.0706514"
+}
+, {
+  "site" : "Faulkner & Freeman Sts. Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2122",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06213095307191",
+    "latitude" : "42.29930840967489",
+    "human_address" : "{\"address\":\"35 Faulkner St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2122\"}"
+  },
+  "location" : "35 Faulkner St.",
+  "state" : "MA",
+  "coordinates" : "42.29941,-71.062174"
+}
+, {
+  "site" : "Harvard/Wales Sts. CG",
+  "area" : "Dorchester",
+  "zip_code" : "2122",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0471122751826",
+    "latitude" : "42.298813782558796",
+    "human_address" : "{\"address\":\"Harvard St. and Freeman St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2122\"}"
+  },
+  "location" : "Harvard St. and Freeman St. ",
+  "state" : "MA"
+}
+, {
+  "site" : "Lee School Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0799995461606",
+    "latitude" : "42.292509838914825",
+    "human_address" : "{\"address\":\"155 Talbot St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "155 Talbot St.",
+  "state" : "MA",
+  "coordinates" : "42.2926893,-71.0804374"
+}
+, {
+  "site" : "Leyland St. CG Ext",
+  "area" : "Dorchester",
+  "zip_code" : "2125",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07046766828353",
+    "latitude" : "42.32048744346491",
+    "human_address" : "{\"address\":\"20 Leyland St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2125\"}"
+  },
+  "location" : "20 Leyland St. ",
+  "state" : "MA",
+  "coordinates" : "42.320589,-71.070316"
+}
+, {
+  "site" : "Leyland St. Park",
+  "area" : "Dorchester",
+  "zip_code" : "2125",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06340000010977",
+    "latitude" : "42.30786999970087",
+    "human_address" : "{\"address\":\"6-18 Leyland St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2125\"}"
+  },
+  "location" : "6-18 Leyland St. ",
+  "state" : "MA",
+  "coordinates" : "42.320672,-71.070395"
+}
+, {
+  "site" : "Lydon Way Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06340000010977",
+    "latitude" : "42.30786999970087",
+    "human_address" : "{\"address\":\"57 Msgr. Patrick J. Lydon Way&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "57 Msgr. Patrick J. Lydon Way ",
+  "state" : "MA",
+  "coordinates" : "42.288716,-71.060039"
+}
+, {
+  "site" : "Monadnock St. Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2125",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06340000010977",
+    "latitude" : "42.30786999970087",
+    "human_address" : "{\"address\":\"21-23 Monadnock St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2125\"}"
+  },
+  "location" : "21-23 Monadnock St. ",
+  "state" : "MA",
+  "coordinates" : "42.3168708,-71.06833"
+}
+, {
+  "site" : "Nightingale Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07340845131932",
+    "latitude" : "42.29525246732277",
+    "human_address" : "{\"address\":\"512 Park St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "512 Park St. ",
+  "state" : "MA",
+  "coordinates" : "42.2952616,-71.0733826"
+}
+, {
+  "site" : "Nightingale St/Generations of Hope",
+  "area" : "Dorchester",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06340000010977",
+    "latitude" : "42.30786999970087",
+    "human_address" : "{\"address\":\"85-89 Nightingale St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "85-89 Nightingale St. ",
+  "state" : "MA",
+  "coordinates" : "42.295059,-71.084814"
+}
+, {
+  "site" : "Nonquit Green",
+  "area" : "Dorchester",
+  "zip_code" : "2125",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06823734965081",
+    "latitude" : "42.31803229432495",
+    "human_address" : "{\"address\":\"5 Nonquit St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2125\"}"
+  },
+  "location" : "5 Nonquit St.",
+  "state" : "MA",
+  "coordinates" : "42.318092,-71.0683433"
+}
+, {
+  "site" : "Nonquit St. Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2125",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06868701066549",
+    "latitude" : "42.317348809582654",
+    "human_address" : "{\"address\":\"30 Nonquit St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2125\"}"
+  },
+  "location" : "30 Nonquit St. ",
+  "state" : "MA",
+  "coordinates" : "42.3172367,-71.0687479"
+}
+, {
+  "site" : "Norton/Stonehurst Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2122",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06705923779248",
+    "latitude" : "42.30477628761304",
+    "human_address" : "{\"address\":\"101 Norton St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2122\"}"
+  },
+  "location" : "101 Norton St.",
+  "state" : "MA",
+  "coordinates" : "42.304708,-71.067165"
+}
+, {
+  "site" : "Paul Sullivan House CG",
+  "area" : "Dorchester",
+  "zip_code" : "2122",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.059954593761",
+    "latitude" : "42.29876881645731",
+    "human_address" : "{\"address\":\"126 Park St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2122\"}"
+  },
+  "location" : "126 Park St.",
+  "state" : "MA",
+  "coordinates" : "42.298639,-71.059899"
+}
+, {
+  "site" : "Quincy/Coleman Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2125",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.05525113954775",
+    "latitude" : "42.32376097565157",
+    "human_address" : "{\"address\":\"Quincy St. and Coleman St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2125\"}"
+  },
+  "location" : "Quincy St. and Coleman St. ",
+  "state" : "MA",
+  "coordinates" : "42.3080693,-71.0664372"
+}
+, {
+  "site" : "ReVision House Urban Farm #2",
+  "area" : "Dorchester",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06340000010977",
+    "latitude" : "42.30786999970087",
+    "human_address" : "{\"address\":\"35-45 Fabyan St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "35-45 Fabyan St.",
+  "state" : "MA",
+  "coordinates" : "42.290139,-71.091001"
+}
+, {
+  "site" : "Sargent St. Park",
+  "area" : "Dorchester",
+  "zip_code" : "2125",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06340000010977",
+    "latitude" : "42.30786999970087",
+    "human_address" : "{\"address\":\"39-43 Sargent St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2125\"}"
+  },
+  "location" : "39-43 Sargent St. ",
+  "state" : "MA",
+  "coordinates" : "42.314946,-71.073964"
+}
+, {
+  "site" : "Spencer St. Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07602547842458",
+    "latitude" : "42.29371462665267",
+    "human_address" : "{\"address\":\"96 Spencer St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "96 Spencer St. ",
+  "state" : "MA",
+  "coordinates" : "42.293765,-71.075835"
+}
+, {
+  "site" : "Torrey St. Park Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0721583936986",
+    "latitude" : "42.287509304650484",
+    "human_address" : "{\"address\":\"19 Torrey St.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "19 Torrey St. ",
+  "state" : "MA",
+  "coordinates" : "42.2876189,-71.0722325"
+}
+, {
+  "site" : "Wheatland Ave. Victory Garden",
+  "area" : "Dorchester",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07618735638988",
+    "latitude" : "42.29281530462333",
+    "human_address" : "{\"address\":\"86 Wheatland Ave.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "86 Wheatland Ave. ",
+  "state" : "MA",
+  "coordinates" : "42.292662,-71.076132"
+}
+, {
+  "site" : "Bremen St. Garden",
+  "area" : "East Boston",
+  "zip_code" : "2128",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0307805871305",
+    "latitude" : "42.3759036669104",
+    "human_address" : "{\"address\":\"294 Bremen St.\",\"city\":\"East Boston\",\"state\":\"MA\",\"zip\":\"2128\"}"
+  },
+  "location" : "294 Bremen St.",
+  "state" : "MA",
+  "coordinates" : "42.375987,-71.030887"
+}
+, {
+  "site" : "Eagle Hill Memorial Park Garden",
+  "area" : "East Boston",
+  "zip_code" : "2128",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.02881000038104",
+    "latitude" : "42.378460000328914",
+    "human_address" : "{\"address\":\"340 Border St.&nbsp;\",\"city\":\"East Boston\",\"state\":\"MA\",\"zip\":\"2128\"}"
+  },
+  "location" : "340 Border St. ",
+  "state" : "MA",
+  "coordinates" : "42.3793907,-71.0400874"
+}
+, {
+  "site" : "Garden at the Rockies",
+  "area" : "East Boston",
+  "zip_code" : "2128",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.02881000038104",
+    "latitude" : "42.378460000328914",
+    "human_address" : "{\"address\":\"144-150 Marginal St.&nbsp;\",\"city\":\"East Boston\",\"state\":\"MA\",\"zip\":\"2128\"}"
+  },
+  "location" : "144-150 Marginal St. ",
+  "state" : "MA",
+  "coordinates" : "42.3653775,-71.0360501"
+}
+, {
+  "site" : "Joe Ciampa Garden",
+  "area" : "East Boston",
+  "zip_code" : "2128",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.02881000038104",
+    "latitude" : "42.378460000328914",
+    "human_address" : "{\"address\":\"Marginal St. at Cottage St.&nbsp;\",\"city\":\"East Boston\",\"state\":\"MA\",\"zip\":\"2128\"}"
+  },
+  "location" : "Marginal St. at Cottage St. ",
+  "state" : "MA",
+  "coordinates" : "42.3657251,-71.0368153"
+}
+, {
+  "site" : "Our Garden",
+  "area" : "East Boston",
+  "zip_code" : "2128",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.02881000038104",
+    "latitude" : "42.378460000328914",
+    "human_address" : "{\"address\":\"316-324 Meridian St.&nbsp;\",\"city\":\"East Boston\",\"state\":\"MA\",\"zip\":\"2128\"}"
+  },
+  "location" : "316-324 Meridian St. ",
+  "state" : "MA",
+  "coordinates" : "42.3777318,-71.0391571"
+}
+, {
+  "site" : "Shore Plaza East Garden",
+  "area" : "East Boston",
+  "zip_code" : "2128",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.02881000038104",
+    "latitude" : "42.378460000328914",
+    "human_address" : "{\"address\":\"520 Border St.&nbsp;\",\"city\":\"East Boston\",\"state\":\"MA\",\"zip\":\"2128\"}"
+  },
+  "location" : "520 Border St. ",
+  "state" : "MA",
+  "coordinates" : "42.3817738,-71.0402873"
+}
+, {
+  "site" : "Richard Parker Memorial CG",
+  "area" : "Fenway/Kenmore",
+  "zip_code" : "2115",
+  "map_location" : {
+    "needs_recoding" : true,
+    "human_address" : "{\"address\":\"15 Park Dr.\",\"city\":\"Fenway/Kenmore\",\"state\":\"MA\",\"zip\":\"2115\"}"
+  },
+  "location" : "15 Park Dr.",
+  "state" : "MA",
+  "coordinates" : "42.3444242,-71.0952061"
+}
+, {
+  "site" : "Symphony Rd. Garden",
+  "area" : "Fenway/Kenmore",
+  "zip_code" : "2115",
+  "map_location" : {
+    "needs_recoding" : true,
+    "human_address" : "{\"address\":\"56-72 Symphony Rd.&nbsp;\",\"city\":\"Fenway/Kenmore\",\"state\":\"MA\",\"zip\":\"2115\"}"
+  },
+  "location" : "56-72 Symphony Rd. ",
+  "state" : "MA",
+  "coordinates" : "42.342986,-71.0896194"
+}
+, {
+  "site" : "60 Paul Gore St. Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11032000006782",
+    "latitude" : "42.321240000226",
+    "human_address" : "{\"address\":\"60 Paul Gore St.&nbsp;\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "60 Paul Gore St. ",
+  "state" : "MA",
+  "coordinates" : "42.3196486,-71.1082219"
+}
+, {
+  "site" : "Agassiz Community & School Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.1153168578847",
+    "latitude" : "42.30700660624569",
+    "human_address" : "{\"address\":\"80 South St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "80 South St.",
+  "state" : "MA",
+  "coordinates" : "42.307058,-71.1149609"
+}
+, {
+  "site" : "Anson St. Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11356317992755",
+    "latitude" : "42.30296865033415",
+    "human_address" : "{\"address\":\"17 Anson St.&nbsp;\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "17 Anson St. ",
+  "state" : "MA",
+  "coordinates" : "42.302818,-71.113564"
+}
+, {
+  "site" : "Arcola St. Park",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10855395622434",
+    "latitude" : "42.32454338581704",
+    "human_address" : "{\"address\":\"2 Arcola St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "2 Arcola St.",
+  "state" : "MA",
+  "coordinates" : "42.324458,-71.1086171"
+}
+, {
+  "site" : "Bowditch Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10917448842457",
+    "latitude" : "42.31142227740958",
+    "human_address" : "{\"address\":\"90 Green St.&nbsp;\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "90 Green St. ",
+  "state" : "MA",
+  "coordinates" : "42.311585,-71.109079"
+}
+, {
+  "site" : "Brookside CG",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10403935963728",
+    "latitude" : "42.31361662316107",
+    "human_address" : "{\"address\":\"32 Merriam St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "32 Merriam St.",
+  "state" : "MA",
+  "coordinates" : "42.3136889,-71.104195"
+}
+, {
+  "site" : "Egleston Square Peace Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09987549864161",
+    "latitude" : "42.314219168920715",
+    "human_address" : "{\"address\":\"3133 Washington St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "3133 Washington St.",
+  "state" : "MA",
+  "coordinates" : "42.3144196,-71.0998495"
+}
+, {
+  "site" : "Farnsworth House Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11466934602362",
+    "latitude" : "42.30672781641664",
+    "human_address" : "{\"address\":\"10 Child St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "10 Child St.",
+  "state" : "MA",
+  "coordinates" : "42.30688,-71.114702"
+}
+, {
+  "site" : "Forbes St. Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11032000006782",
+    "latitude" : "42.321240000226",
+    "human_address" : "{\"address\":\"19-31 Forbes St.&nbsp;\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "19-31 Forbes St. ",
+  "state" : "MA",
+  "coordinates" : "42.321469,-71.107533"
+}
+, {
+  "site" : "Hall/Boynton St. Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.1126278850171",
+    "latitude" : "42.30484823337537",
+    "human_address" : "{\"address\":\"50 Hall St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "50 Hall St.",
+  "state" : "MA",
+  "coordinates" : "42.3048162,-71.1122781"
+}
+, {
+  "site" : "Hennigan School Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10446204099105",
+    "latitude" : "42.32540673496521",
+    "human_address" : "{\"address\":\"15 Walden St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "15 Walden St.",
+  "state" : "MA",
+  "coordinates" : "42.3254146,-71.1044496"
+}
+, {
+  "site" : "Lamartine/Hubbard Sts. Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10529637404848",
+    "latitude" : "42.316208803556144",
+    "human_address" : "{\"address\":\"206 Lamartine St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "206 Lamartine St.",
+  "state" : "MA",
+  "coordinates" : "42.3162008,-71.1053927"
+}
+, {
+  "site" : "Lawndale Terrace Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10616175962645",
+    "latitude" : "42.31413822993807",
+    "human_address" : "{\"address\":\"2 Lawndale Terrace\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "2 Lawndale Terrace",
+  "state" : "MA",
+  "coordinates" : "42.31421,-71.106064"
+}
+, {
+  "site" : "McBride Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11219319954948",
+    "latitude" : "42.305435778729056",
+    "human_address" : "{\"address\":\"60 Boynton St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "60 Boynton St.",
+  "state" : "MA",
+  "coordinates" : "42.3055471,-71.1113384"
+}
+, {
+  "site" : "Minton Stable Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11032000006782",
+    "latitude" : "42.321240000226",
+    "human_address" : "{\"address\":\"110-112 Williams St.&nbsp;\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "110-112 Williams St. ",
+  "state" : "MA",
+  "coordinates" : "42.304979,-71.105403"
+}
+, {
+  "site" : "Mission Hill CG",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10017602733316",
+    "latitude" : "42.32579057883232",
+    "human_address" : "{\"address\":\"746 Parker St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "746 Parker St.",
+  "state" : "MA",
+  "coordinates" : "42.3302954,-71.0980225"
+}
+, {
+  "site" : "Nira Ave. Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11032000006782",
+    "latitude" : "42.321240000226",
+    "human_address" : "{\"address\":\"10 Nira Ave.&nbsp;\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "10 Nira Ave. ",
+  "state" : "MA",
+  "coordinates" : "42.3252119,-71.1085897"
+}
+, {
+  "site" : "Oakdale St. CG",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10689920369043",
+    "latitude" : "42.313050050282584",
+    "human_address" : "{\"address\":\"6 Oakdale St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "6 Oakdale St.",
+  "state" : "MA",
+  "coordinates" : "42.313218,-71.106781"
+}
+, {
+  "site" : "Paul Gore/Beecher St. Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10658301639171",
+    "latitude" : "42.31874136848712",
+    "human_address" : "{\"address\":\"2 Beecher St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "2 Beecher St.",
+  "state" : "MA",
+  "coordinates" : "42.3188105,-71.106628"
+}
+, {
+  "site" : "Round Hill St. Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10775355961829",
+    "latitude" : "42.325073985814356",
+    "human_address" : "{\"address\":\"56 Day St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "56 Day St.",
+  "state" : "MA",
+  "coordinates" : "42.3250173,-71.1075822"
+}
+, {
+  "site" : "South St. BHA CG",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11499310195416",
+    "latitude" : "42.306062318114925",
+    "human_address" : "{\"address\":\"119 South St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "119 South St.",
+  "state" : "MA",
+  "coordinates" : "42.305404,-71.115607"
+}
+, {
+  "site" : "South St. CG",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11446661505428",
+    "latitude" : "42.30196089734246",
+    "human_address" : "{\"address\":\"271 South St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "271 South St.",
+  "state" : "MA",
+  "coordinates" : "42.3013959,-71.116206"
+}
+, {
+  "site" : "Southwest Corridor Community Farm",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10722295962097",
+    "latitude" : "42.31402131807425",
+    "human_address" : "{\"address\":\"57 Lamartine St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "57 Lamartine St.",
+  "state" : "MA",
+  "coordinates" : "42.314158,-71.107307"
+}
+, {
+  "site" : "St Rose St. Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11032000006782",
+    "latitude" : "42.321240000226",
+    "human_address" : "{\"address\":\"34-36 Saint Rose St.&nbsp;\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "34-36 Saint Rose St. ",
+  "state" : "MA",
+  "coordinates" : "42.3046102,-71.1157968"
+}
+, {
+  "site" : "Starr Lane Park",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11361594239537",
+    "latitude" : "42.31278866766553",
+    "human_address" : "{\"address\":\"17 Starr Ln.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "17 Starr Ln.",
+  "state" : "MA",
+  "coordinates" : "42.3127446,-71.1133248"
+}
+, {
+  "site" : "Stonybrook CG",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10791951368489",
+    "latitude" : "42.31294005108084",
+    "human_address" : "{\"address\":\"57-59 Lamartine St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "57-59 Lamartine St.",
+  "state" : "MA",
+  "coordinates" : "42.3206608,-71.1021812"
+}
+, {
+  "site" : "Walden St. CG",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11032000006782",
+    "latitude" : "42.321240000226",
+    "human_address" : "{\"address\":\"13-15 Walden St.&nbsp;\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "13-15 Walden St. ",
+  "state" : "MA",
+  "coordinates" : "42.3253814,-71.1046729"
+}
+, {
+  "site" : "Leland St. Herb Garden",
+  "area" : "Jamaica Plain",
+  "zip_code" : "2130",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11032000006782",
+    "latitude" : "42.321240000226",
+    "human_address" : "{\"address\":\"2-6 Leland St.&nbsp;\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+  },
+  "location" : "2-6 Leland St. ",
+  "state" : "MA",
+  "coordinates" : "42.2967749,-71.1121749"
+}
+, {
+  "site" : "Clark/Cooper CG",
+  "area" : "Mattapan",
+  "zip_code" : "2131",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09459999998984",
+    "latitude" : "42.267260000248996",
+    "human_address" : "{\"address\":\"500 Walk Hill St.&nbsp;\",\"city\":\"Mattapan\",\"state\":\"MA\",\"zip\":\"2131\"}"
+  },
+  "location" : "500 Walk Hill St. ",
+  "state" : "MA",
+  "coordinates" : "42.284624,-71.1010972"
+}
+, {
+  "site" : "Imani Garden",
+  "area" : "Mattapan",
+  "zip_code" : "2126",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09459999998984",
+    "latitude" : "42.267260000248996",
+    "human_address" : "{\"address\":\"2-98 Dr. Mary M. Beatty Circle&nbsp;\",\"city\":\"Mattapan\",\"state\":\"MA\",\"zip\":\"2126\"}"
+  },
+  "location" : "2-98 Dr. Mary M. Beatty Circle ",
+  "state" : "MA",
+  "coordinates" : "42.271847,-71.079354"
+}
+, {
+  "site" : "Kennedy Playground CG",
+  "area" : "Mattapan",
+  "zip_code" : "2126",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09459999998984",
+    "latitude" : "42.267260000248996",
+    "human_address" : "{\"address\":\"32 Edgewater Drive&nbsp;\",\"city\":\"Mattapan\",\"state\":\"MA\",\"zip\":\"2126\"}"
+  },
+  "location" : "32 Edgewater Drive ",
+  "state" : "MA",
+  "coordinates" : "42.2654004,-71.0962497"
+}
+, {
+  "site" : "Lucerne/Balsam St. Garden",
+  "area" : "Mattapan",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08840014954774",
+    "latitude" : "42.287086623296716",
+    "human_address" : "{\"address\":\"74 Lucerne St.\",\"city\":\"Mattapan\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "74 Lucerne St.",
+  "state" : "MA",
+  "coordinates" : "42.287048,-71.088192"
+}
+, {
+  "site" : "Revision House Urban Farm #1",
+  "area" : "Mattapan",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09459999998984",
+    "latitude" : "42.267260000248996",
+    "human_address" : "{\"address\":\"34-42 Fabyan St.\",\"city\":\"Mattapan\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "34-42 Fabyan St.",
+  "state" : "MA",
+  "coordinates" : "42.2898739,-71.0913088"
+}
+, {
+  "site" : "Shangri-La CG",
+  "area" : "Mattapan",
+  "zip_code" : "2126",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09497419358195",
+    "latitude" : "42.27502671488378",
+    "human_address" : "{\"address\":\"25 Almont St.\",\"city\":\"Mattapan\",\"state\":\"MA\",\"zip\":\"2126\"}"
+  },
+  "location" : "25 Almont St.",
+  "state" : "MA",
+  "coordinates" : "42.275175,-71.0948772"
+}
+, {
+  "site" : "The Learning Garden at City Natives",
+  "area" : "Mattapan",
+  "zip_code" : "2126",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09557673934154",
+    "latitude" : "42.26617738611549",
+    "human_address" : "{\"address\":\"30 Edgewater Dr.\",\"city\":\"Mattapan\",\"state\":\"MA\",\"zip\":\"2126\"}"
+  },
+  "location" : "30 Edgewater Dr.",
+  "state" : "MA",
+  "coordinates" : "42.266037,-71.09544"
+}
+, {
+  "site" : "Franklin Field BHA Garden",
+  "area" : "Mattapan or Dorchester",
+  "zip_code" : "2124",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08395672883609",
+    "latitude" : "42.29070108347975",
+    "human_address" : "{\"address\":\"120 Westview Way\",\"city\":\"Mattapan or Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+  },
+  "location" : "120 Westview Way",
+  "state" : "MA",
+  "coordinates" : "42.2898866,-71.0837929"
+}
+, {
+  "site" : "Haley Elementary School",
+  "area" : "Roslindale",
+  "zip_code" : "2131",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.13135999996388",
+    "latitude" : "42.286629999574984",
+    "human_address" : "{\"address\":\"570 American Legion Highway&nbsp;\",\"city\":\"Roslindale\",\"state\":\"MA\",\"zip\":\"2131\"}"
+  },
+  "location" : "570 American Legion Highway ",
+  "state" : "MA",
+  "coordinates" : "42.286377,-71.107826"
+}
+, {
+  "site" : "Longfellow House Garden",
+  "area" : "Roslindale",
+  "zip_code" : "2131",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.1343195323638",
+    "latitude" : "42.288840301253856",
+    "human_address" : "{\"address\":\"885 South St.\",\"city\":\"Roslindale\",\"state\":\"MA\",\"zip\":\"2131\"}"
+  },
+  "location" : "885 South St.",
+  "state" : "MA",
+  "coordinates" : "42.289057,-71.134609"
+}
+, {
+  "site" : "Philbrick School Garden",
+  "area" : "Roslindale",
+  "zip_code" : "2131",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.11799683753202",
+    "latitude" : "42.285413884322224",
+    "human_address" : "{\"address\":\"40 Philbrick St.\",\"city\":\"Roslindale\",\"state\":\"MA\",\"zip\":\"2131\"}"
+  },
+  "location" : "40 Philbrick St.",
+  "state" : "MA",
+  "coordinates" : "42.2853934,-71.1179247"
+}
+, {
+  "site" : "Southwest Boston Garden Club",
+  "area" : "Roslindale",
+  "zip_code" : "2131",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.12049805496308",
+    "latitude" : "42.28149916107207",
+    "human_address" : "{\"address\":\"100 Rowe St.\",\"city\":\"Roslindale\",\"state\":\"MA\",\"zip\":\"2131\"}"
+  },
+  "location" : "100 Rowe St.",
+  "state" : "MA",
+  "coordinates" : "42.2812866,-71.1206225"
+}
+, {
+  "site" : "Lawn St. Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2120",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"59-63 Lawn St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2120\"}"
+  },
+  "location" : "59-63 Lawn St. ",
+  "state" : "MA",
+  "coordinates" : "42.327381,-71.106002"
+}
+, {
+  "site" : "Tobin Community Center Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2120",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0980588681424",
+    "latitude" : "42.33199876543995",
+    "human_address" : "{\"address\":\"1481 Tremont St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2120\"}"
+  },
+  "location" : "1481 Tremont St. ",
+  "state" : "MA",
+  "coordinates" : "42.3321374,-71.098142"
+}
+, {
+  "site" : "Allan Crite Garden I",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"107-125 Cedar St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "107-125 Cedar St. ",
+  "state" : "MA",
+  "coordinates" : "42.327437,-71.094073"
+}
+, {
+  "site" : "Alvah Kittredge Sq. Park",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09262696308548",
+    "latitude" : "42.32816765359513",
+    "human_address" : "{\"address\":\"4 Alvah Kittredge Park\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "4 Alvah Kittredge Park",
+  "state" : "MA",
+  "coordinates" : "42.328218,-71.092833"
+}
+, {
+  "site" : "Boston Evening Academy Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"17 Kearsarge Ave.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "17 Kearsarge Ave. ",
+  "state" : "MA",
+  "coordinates" : "42.3269503,-71.0822508"
+}
+, {
+  "site" : "Centre Place Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0945335257876",
+    "latitude" : "42.32903999596357",
+    "human_address" : "{\"address\":\"66 Centre St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "66 Centre St. ",
+  "state" : "MA",
+  "coordinates" : "42.32884,-71.0943999"
+}
+, {
+  "site" : "Dacia/Woodcliff CG",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"47 Dacia St.\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "47 Dacia St.",
+  "state" : "MA",
+  "coordinates" : "42.3156412,-71.0768984"
+}
+, {
+  "site" : "Dearborn School Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08038719026666",
+    "latitude" : "42.32616216546978",
+    "human_address" : "{\"address\":\"35 Greenville St.\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "35 Greenville St.",
+  "state" : "MA",
+  "coordinates" : "42.326453,-71.080922"
+}
+, {
+  "site" : "Dennis St. CG",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07485635978651",
+    "latitude" : "42.32341024006013",
+    "human_address" : "{\"address\":\"26 Huckins St.\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "26 Huckins St.",
+  "state" : "MA",
+  "coordinates" : "42.3234748,-71.0747846"
+}
+, {
+  "site" : "Edward L. Cooper Memorial Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"24-26 Linwood St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "24-26 Linwood St. ",
+  "state" : "MA",
+  "coordinates" : "42.327867,-71.093726"
+}
+, {
+  "site" : "Egleston CG",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"2040 Columbus Ave.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "2040 Columbus Ave. ",
+  "state" : "MA",
+  "coordinates" : "42.3141484,-71.0961774"
+}
+, {
+  "site" : "Elm Hill Park",
+  "area" : "Roxbury",
+  "zip_code" : "2121",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08182893019573",
+    "latitude" : "42.313057897208665",
+    "human_address" : "{\"address\":\"80 Elm Hill Park\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2121\"}"
+  },
+  "location" : "80 Elm Hill Park",
+  "state" : "MA",
+  "coordinates" : "42.312886,-71.0827483"
+}
+, {
+  "site" : "Garden 'N da Ruff",
+  "area" : "Roxbury",
+  "zip_code" : "2120",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"2-50 Holworthy St.\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2120\"}"
+  },
+  "location" : "2-50 Holworthy St.",
+  "state" : "MA",
+  "coordinates" : "42.3159235,-71.0903592"
+}
+, {
+  "site" : "Granada Park Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"23 Granada Park&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "23 Granada Park ",
+  "state" : "MA",
+  "coordinates" : "42.3127342,-71.0987517"
+}
+, {
+  "site" : "Greenwood CG",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"140-142 Greenwood St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "140-142 Greenwood St. ",
+  "state" : "MA",
+  "coordinates" : "42.2977606,-71.0796506"
+}
+, {
+  "site" : "Hawthorne Youth & Community Center Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"9 Fulda St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "9 Fulda St. ",
+  "state" : "MA",
+  "coordinates" : "42.3233075,-71.0923386"
+}
+, {
+  "site" : "Highland Ave. CG",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"10-14 Highland Ave.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "10-14 Highland Ave. ",
+  "state" : "MA",
+  "coordinates" : "42.328408,-71.09275"
+}
+, {
+  "site" : "Highland Park 400 Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"26-34 Linwood St.\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "26-34 Linwood St.",
+  "state" : "MA",
+  "coordinates" : "42.327806,-71.09396"
+}
+, {
+  "site" : "Jardin de la Amistad",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"403-405 Dudley St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "403-405 Dudley St. ",
+  "state" : "MA",
+  "coordinates" : "42.325719,-71.075424"
+}
+, {
+  "site" : "Julian, Judson, Dean Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2125",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0749372987691",
+    "latitude" : "42.31922839262387",
+    "human_address" : "{\"address\":\"48 Julian St.\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2125\"}"
+  },
+  "location" : "48 Julian St.",
+  "state" : "MA",
+  "coordinates" : "42.319361,-71.074807"
+}
+, {
+  "site" : "Leyland St. Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"6-18 Leyland St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "6-18 Leyland St. ",
+  "state" : "MA",
+  "coordinates" : "42.320672,-71.070395"
+}
+, {
+  "site" : "Madison Park Village CG",
+  "area" : "Roxbury",
+  "zip_code" : "2120",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08861598683478",
+    "latitude" : "42.33080266714097",
+    "human_address" : "{\"address\":\"55 Malcom X Blvd/New Dudley St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2120\"}"
+  },
+  "location" : "55 Malcom X Blvd/New Dudley St. ",
+  "state" : "MA",
+  "coordinates" : "42.3306429,-71.0876518"
+}
+, {
+  "site" : "Magazine St. Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"25-35 Magazine St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "25-35 Magazine St. ",
+  "state" : "MA",
+  "coordinates" : "42.325648,-71.072977"
+}
+, {
+  "site" : "Magnolia & Woodford Sts. Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"Magnolia St. at Woodford St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "Magnolia St. at Woodford St. ",
+  "state" : "MA",
+  "coordinates" : "42.3183325,-71.0700031"
+}
+, {
+  "site" : "Margaret Wright Memorial Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"61-67 Fort Ave.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "61-67 Fort Ave. ",
+  "state" : "MA",
+  "coordinates" : "42.3263729,-71.09551"
+}
+, {
+  "site" : "Mt. Calvary Holy Church",
+  "area" : "Roxbury",
+  "zip_code" : "2121",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08040994509663",
+    "latitude" : "42.312413552903365",
+    "human_address" : "{\"address\":\"347 Blue Hill Ave.\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2121\"}"
+  },
+  "location" : "347 Blue Hill Ave.",
+  "state" : "MA",
+  "coordinates" : "42.3123872,-71.0803561"
+}
+, {
+  "site" : "Phyllis Wheatley/Warren Place",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"Pevear Pl. and Warren Pl.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "Pevear Pl. and Warren Pl. ",
+  "state" : "MA",
+  "coordinates" : "42.327868,-71.0815048"
+}
+, {
+  "site" : "Savin/Maywood St. Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"54-60 Savin St.\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "54-60 Savin St.",
+  "state" : "MA",
+  "coordinates" : "42.316154,-71.079365"
+}
+, {
+  "site" : "St. Joseph's Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"Regent St. and Hulbert St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "Regent St. and Hulbert St. ",
+  "state" : "MA",
+  "coordinates" : "42.3230185,-71.0878407"
+}
+, {
+  "site" : "The Food Project Lot #1",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"Langdon St. and Geeorge St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "Langdon St. and Geeorge St. ",
+  "state" : "MA",
+  "coordinates" : "42.3246539,-71.0716542"
+}
+, {
+  "site" : "The Food Project Lot #3",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07118712590693",
+    "latitude" : "42.32213320277856",
+    "human_address" : "{\"address\":\"18 Albion St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "18 Albion St. ",
+  "state" : "MA",
+  "coordinates" : "42.322275,-71.071261"
+}
+, {
+  "site" : "The Food Project Lot #2",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"West Cottage St. and Brook Ave.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "West Cottage St. and Brook Ave. ",
+  "state" : "MA",
+  "coordinates" : "42.3207548,-71.0740661"
+}
+, {
+  "site" : "United Neighborhood of Lower Roxbury CG",
+  "area" : "Roxbury",
+  "zip_code" : "2120",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"Warwick St. and Windsor St. off Melnea Cass Blvd.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2120\"}"
+  },
+  "location" : "Warwick St. and Windsor St. off Melnea Cass Blvd. ",
+  "state" : "MA",
+  "coordinates" : "52.282316,-1.584927"
+}
+, {
+  "site" : "Wakullah St. CG",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"Wakullah St. and Hewes St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "Wakullah St. and Hewes St. ",
+  "state" : "MA",
+  "coordinates" : "42.322115,-71.086491"
+}
+, {
+  "site" : "Waldren Rd. Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0951180851066",
+    "latitude" : "42.31563110450668",
+    "human_address" : "{\"address\":\"7 Waldren Rd.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "7 Waldren Rd. ",
+  "state" : "MA",
+  "coordinates" : "42.3157245,-71.0952333"
+}
+, {
+  "site" : "Warren Gardens CG",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"Warren St. and Walnut Ave.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "Warren St. and Walnut Ave. ",
+  "state" : "MA",
+  "coordinates" : "42.3240807,-71.0827044"
+}
+, {
+  "site" : "Winthrop St. Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2119",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08181711229327",
+    "latitude" : "42.32629706377418",
+    "human_address" : "{\"address\":\"25 Winthrop St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2119\"}"
+  },
+  "location" : "25 Winthrop St. ",
+  "state" : "MA",
+  "coordinates" : "42.326125,-71.081879"
+}
+, {
+  "site" : "Bessie Barnes Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2120",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"25-29 Warwick St.&nbsp;\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2120\"}"
+  },
+  "location" : "25-29 Warwick St. ",
+  "state" : "MA",
+  "coordinates" : "42.3361098,-71.0841995"
+}
+, {
+  "site" : "Frederick Douglas Peace Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2120",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08442514617826",
+    "latitude" : "42.33674718575469",
+    "human_address" : "{\"address\":\"998 Tremont St.\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2120\"}"
+  },
+  "location" : "998 Tremont St.",
+  "state" : "MA",
+  "coordinates" : "42.336667,-71.084281"
+}
+, {
+  "site" : "Harrison Urban Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07058458014734",
+    "latitude" : "42.338554823033576",
+    "human_address" : "{\"address\":\"700 Harrison Ave.\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "700 Harrison Ave.",
+  "state" : "MA",
+  "coordinates" : "42.3385312,-71.0706583"
+}
+, {
+  "site" : "Kendall & Lenox Sts. Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2120",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0841100000763",
+    "latitude" : "42.328730000289454",
+    "human_address" : "{\"address\":\"100 Kendall St.\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2120\"}"
+  },
+  "location" : "100 Kendall St.",
+  "state" : "MA",
+  "coordinates" : "42.3374203,-71.082921"
+}
+, {
+  "site" : "Parker St Guerrilla Garden",
+  "area" : "Roxbury",
+  "zip_code" : "2120",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09880530542677",
+    "latitude" : "42.329696501044964",
+    "human_address" : "{\"address\":\"777 Parker St.\",\"city\":\"Roxbury\",\"state\":\"MA\",\"zip\":\"2120\"}"
+  },
+  "location" : "777 Parker St.",
+  "state" : "MA",
+  "coordinates" : "42.3297424,-71.0988196"
+}
+, {
+  "site" : "Avon St. Garden",
+  "area" : "Somerville",
+  "zip_code" : "2143",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.10296916642238",
+    "latitude" : "42.38531956855718",
+    "human_address" : "{\"address\":\"117 Summer St.&nbsp;\",\"city\":\"Somerville\",\"state\":\"MA\",\"zip\":\"2143\"}"
+  },
+  "location" : "117 Summer St. ",
+  "state" : "MA",
+  "coordinates" : "42.385599,-71.102829"
+}
+, {
+  "site" : "Bikeway Garden",
+  "area" : "Somerville",
+  "zip_code" : "2144",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09825999969905",
+    "latitude" : "42.38667999988223",
+    "human_address" : "{\"address\":\"Somerville Community Path\",\"city\":\"Somerville\",\"state\":\"MA\",\"zip\":\"2144\"}"
+  },
+  "location" : "Somerville Community Path",
+  "state" : "MA",
+  "coordinates" : "42.3947318,-71.1138929"
+}
+, {
+  "site" : "Conwell Garden",
+  "area" : "Somerville",
+  "zip_code" : "2144",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.12966892434791",
+    "latitude" : "42.41493918825235",
+    "human_address" : "{\"address\":\"1 Capen Ct.\",\"city\":\"Somerville\",\"state\":\"MA\",\"zip\":\"2144\"}"
+  },
+  "location" : "1 Capen Ct.",
+  "state" : "MA",
+  "coordinates" : "42.414796,-71.129377"
+}
+, {
+  "site" : "Glen Garden",
+  "area" : "Somerville",
+  "zip_code" : "2145",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08589104108603",
+    "latitude" : "42.38261260924895",
+    "human_address" : "{\"address\":\"5 Palmer Ave.\",\"city\":\"Somerville\",\"state\":\"MA\",\"zip\":\"2145\"}"
+  },
+  "location" : "5 Palmer Ave.",
+  "state" : "MA",
+  "coordinates" : "42.382535,-71.085938"
+}
+, {
+  "site" : "Mystic CG",
+  "area" : "Somerville",
+  "zip_code" : "2155",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09875019663018",
+    "latitude" : "42.40048931534559",
+    "human_address" : "{\"address\":\"530 Mystic Ave.\",\"city\":\"Somerville\",\"state\":\"MA\",\"zip\":\"2155\"}"
+  },
+  "location" : "530 Mystic Ave.",
+  "state" : "MA",
+  "coordinates" : "42.4164555,-71.1295841"
+}
+, {
+  "site" : "Osgood Garden",
+  "area" : "Somerville",
+  "zip_code" : "2143",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.1025644715092",
+    "latitude" : "42.383592870260884",
+    "human_address" : "{\"address\":\"11 Osgood St.\",\"city\":\"Somerville\",\"state\":\"MA\",\"zip\":\"2143\"}"
+  },
+  "location" : "11 Osgood St.",
+  "state" : "MA",
+  "coordinates" : "42.383771,-71.102461"
+}
+, {
+  "site" : "Somerville Community Growing Center",
+  "area" : "Somerville",
+  "zip_code" : "2143",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.09778283155575",
+    "latitude" : "42.383317049328824",
+    "human_address" : "{\"address\":\"22 Vinal Ave.\",\"city\":\"Somerville\",\"state\":\"MA\",\"zip\":\"2143\"}"
+  },
+  "location" : "22 Vinal Ave.",
+  "state" : "MA",
+  "coordinates" : "42.3831384,-71.0978583"
+}
+, {
+  "site" : "Tufts University Garden",
+  "area" : "Somerville",
+  "zip_code" : "2144",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.12130652593203",
+    "latitude" : "42.40345182588937",
+    "human_address" : "{\"address\":\"89 Powderhouse Blvd.\",\"city\":\"Somerville\",\"state\":\"MA\",\"zip\":\"2144\"}"
+  },
+  "location" : "89 Powderhouse Blvd.",
+  "state" : "MA",
+  "coordinates" : "42.403425,-71.1213524"
+}
+, {
+  "site" : "Walnut St. Garden",
+  "area" : "Somerville",
+  "zip_code" : "2144",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.0971775325537",
+    "latitude" : "42.38189315162555",
+    "human_address" : "{\"address\":\"11 Giles Park.\",\"city\":\"Somerville\",\"state\":\"MA\",\"zip\":\"2144\"}"
+  },
+  "location" : "11 Giles Park.",
+  "state" : "MA",
+  "coordinates" : "42.3820155,-71.0971002"
+}
+, {
+  "site" : "Conley School Garden",
+  "area" : "South Boston",
+  "zip_code" : "2131",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.12736777307731",
+    "latitude" : "42.2739924945501",
+    "human_address" : "{\"address\":\"16 Dale St.\",\"city\":\"South Boston\",\"state\":\"MA\",\"zip\":\"2131\"}"
+  },
+  "location" : "16 Dale St.",
+  "state" : "MA",
+  "coordinates" : "42.2741479,-71.127252"
+}
+, {
+  "site" : "Foster's Nook CG",
+  "area" : "South Boston",
+  "zip_code" : "2127",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.04948000030163",
+    "latitude" : "42.337950000092576",
+    "human_address" : "{\"address\":\"344 Athens St.&nbsp;\",\"city\":\"South Boston\",\"state\":\"MA\",\"zip\":\"2127\"}"
+  },
+  "location" : "344 Athens St. ",
+  "state" : "MA",
+  "coordinates" : "42.337025,-71.0469409"
+}
+, {
+  "site" : "Berkeley St. Garden",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06744384178675",
+    "latitude" : "42.344520292895055",
+    "human_address" : "{\"address\":\"50 Berkeley St.\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "50 Berkeley St.",
+  "state" : "MA",
+  "coordinates" : "42.3462692,-71.070626"
+}
+, {
+  "site" : "Braddock Park Garden",
+  "area" : "South End",
+  "zip_code" : "2116",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07859096841958",
+    "latitude" : "42.3441534939727",
+    "human_address" : "{\"address\":\"32 Braddock Park\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2116\"}"
+  },
+  "location" : "32 Braddock Park",
+  "state" : "MA",
+  "coordinates" : "42.344397,-71.079046"
+}
+, {
+  "site" : "Dartmouth Garden",
+  "area" : "South End",
+  "zip_code" : "2116",
+  "map_location" : {
+    "needs_recoding" : true,
+    "human_address" : "{\"address\":\"29-31 Dartmouth St.&nbsp;\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2116\"}"
+  },
+  "location" : "29-31 Dartmouth St. ",
+  "state" : "MA",
+  "coordinates" : "42.343936,-71.0740299"
+}
+, {
+  "site" : "Northampton St. CG",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07633124791454",
+    "latitude" : "42.33493055525548",
+    "human_address" : "{\"address\":\"75 Northampton St.&nbsp;\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "75 Northampton St. ",
+  "state" : "MA",
+  "coordinates" : "42.335108,-71.076151"
+}
+, {
+  "site" : "Peters Park CG",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06784213546332",
+    "latitude" : "42.34233965835999",
+    "human_address" : "{\"address\":\"1277 Washington St.\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "1277 Washington St. ",
+  "state" : "MA",
+  "coordinates" : "42.3422691,-71.0677441"
+}
+, {
+  "site" : "Rutland Green",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : true,
+    "human_address" : "{\"address\":\"74-76 Rutland St.&nbsp;\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "74-76 Rutland St. ",
+  "state" : "MA",
+  "coordinates" : "42.3405203,-71.076828"
+}
+, {
+  "site" : "Rutland Washington CG",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : true,
+    "human_address" : "{\"address\":\"1595 Washington St.&nbsp;\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "1595 Washington St. ",
+  "state" : "MA",
+  "coordinates" : "42.3384748,-71.0745641"
+}
+, {
+  "site" : "Rutland’s Haven CG",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07466765730145",
+    "latitude" : "42.338809854201074",
+    "human_address" : "{\"address\":\"11 Rutland St.\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "11 Rutland St.",
+  "state" : "MA",
+  "coordinates" : "42.3388746,-71.0748537"
+}
+, {
+  "site" : "Titus Sparrow Park CG",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07858345623713",
+    "latitude" : "42.34311977566619",
+    "human_address" : "{\"address\":\"200 West Newton St.\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "200 West Newton St.",
+  "state" : "MA",
+  "coordinates" : "42.343463,-71.079526"
+}
+, {
+  "site" : "Unity Towers Garden",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07235624454506",
+    "latitude" : "42.34112688403735",
+    "human_address" : "{\"address\":\"371 Shawmut Ave.\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "371 Shawmut Ave.",
+  "state" : "MA",
+  "coordinates" : "42.341258,-71.072463"
+}
+, {
+  "site" : "Warren & Clarendon Sts. Garden",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08169956578588",
+    "latitude" : "42.34278891640841",
+    "human_address" : "{\"address\":\"20 Clarendon St.\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "20 Clarendon St.",
+  "state" : "MA",
+  "coordinates" : "42.3450185,-71.0724421"
+}
+, {
+  "site" : "Washington Manor CG",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07628628181305",
+    "latitude" : "42.33706194846491",
+    "human_address" : "{\"address\":\"1701 Washington St.\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "1701 Washington St.",
+  "state" : "MA",
+  "coordinates" : "42.3374194,-71.0761489"
+}
+, {
+  "site" : "Wellington Common",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08234771229058",
+    "latitude" : "42.34188231454198",
+    "human_address" : "{\"address\":\"32 Wellington St.\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "32 Wellington St.",
+  "state" : "MA",
+  "coordinates" : "42.341767,-71.082487"
+}
+, {
+  "site" : "Wellington Green",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.08165523432803",
+    "latitude" : "42.341414667086724",
+    "human_address" : "{\"address\":\"2 Wellington St.\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "2 Wellington St.",
+  "state" : "MA",
+  "coordinates" : "42.341289,-71.081797"
+}
+, {
+  "site" : "West Springfield Garden",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : true,
+    "human_address" : "{\"address\":\"106-116 West Springfield St.&nbsp;\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "106-116 West Springfield St. ",
+  "state" : "MA",
+  "coordinates" : "42.338189,-71.078117"
+}
+, {
+  "site" : "Worcester St. Garden",
+  "area" : "South End",
+  "zip_code" : "2118",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.07920907840833",
+    "latitude" : "42.34042541285447",
+    "human_address" : "{\"address\":\"114 Worcester St.&nbsp;\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}"
+  },
+  "location" : "114 Worcester St. ",
+  "state" : "MA",
+  "coordinates" : "42.2543173,-71.8244381"
+}
+, {
+  "site" : "Bay Village CG",
+  "area" : "Bay Village",
+  "zip_code" : "2116",
+  "map_location" : {
+    "needs_recoding" : false,
+    "longitude" : "-71.06732004118095",
+    "latitude" : "42.349490578909865",
+    "human_address" : "{\"address\":\"4 Melrose St\",\"city\":\"Bay Village\",\"state\":\"MA\",\"zip\":\"2116\"}"
+  },
+  "location" : "4 Melrose St",
+  "state" : "MA",
+  "coordinates" : "42.349636,-71.066716"
+}
+ ]

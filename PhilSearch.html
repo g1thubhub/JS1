@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phil's Search Engine</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="leaflet7.3/leaflet.css">
+	<link rel="stylesheet" type="text/css" href="Leaflet.draw-master/dist/leaflet.draw.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="js/lib/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/lib/jquery-ui-1.10.3.min.js"></script>
+	<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="leaflet7.3/leaflet.js"></script>
+	<script type="text/javascript" src="Leaflet.draw-master/dist/leaflet.draw.js"></script>
+	<script type="text/javascript" src="js/map.js"></script>
+	<script type="text/javascript" src="js/es2.js"></script>
+	<script type="text/javascript" src="js/ui.js"></script>
+	<script src="js/leaflet.zoomfs.js"></script>
+<script type="text/javascript" src="js/MousePosition.js"> </script>
+<link href="css/MousePosition.css" rel="stylesheet" />
+
+</head>
+
+<body>
+	<script src="config.js"></script>
+	<nav role="navigation" class="navbar navbar-default navbar-static-top well" id="navioben">
+
+			<div class="controls">
+					
+				<div class="row">
+					<div class="col-xs-2"><a id="url" class="btn btn-success btn-responsive btn-block" href="#" disabled="disabled">localhost:9200</a></div>	
+									
+					
+					
+					<div class="col-xs-2"><a id="connect" type="button" class="btn btn-success btn-responsive btn-block">Verbinden</a></div>
+					<div class="col-xs-2"><select id="indizes" class="form-control"></select></div>
+					<div class="col-xs-2"><a id="disconnect" type="button" class="btn btn-success btn-responsive btn-block">Trennen</a></div>
+					<div class="col-xs-3"><span id="took"></span></div>
+				</div>
+				<br>
+			
+				<div class="row">						
+					<div class="col-xs-2"><button type="button" id="hinzu" class="btn btn-default btn-responsive">Add entry</button></div>
+					<div class="col-xs-2"><button type="button" id="3" class="btn btn-default btn-responsive">Locate myself</button></div>
+					<div class="col-xs-2"><span class="button-checkbox">
+						<button type="button" id="onv" class="btn btn-responsive" data-color="info">Underground</button>
+						<input type="checkbox" class="hidden" />
+					</span></div>
+					<div class="col-xs-2"><span class="button-checkbox">
+						<button type="button" id="sbahn" class="btn btn-responsive" data-color="info">Buslines</button>
+						<input type="checkbox" class="hidden" />
+					</span></div>					
+					<div class="col-xs-2"><button type="submit" class="btn btn-warning btn-responsive">Register/Login</button></div>
+				</div>
+			</div>
+			
+	</nav> 
+
+
+	<nav role="navigation" class="navbar navbar-default navbar-fixed-top well" id="sidebar1">
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Place</h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body">
+                
+              <select id="ort" class="form-control" onchange='mapc.placeSelect($("select#ort").val())'>
+                    <option value="Nil" selected="Nil">No place selected</option>
+                    <option value="Berlin">Berlin</option>
+                    <option value="SF" >San Francisco</option>  
+                    <option value="Paris" >Paris</option>
+                    <option value="Bay Area" >Bay Area</option>                                                           
+                </select>
+                <select id="stadtteil" class="form-control"  onchange='esc.retrieveBezirk($("select#stadtteil").val())'>;
+                    <option value='alle' selected="alle">No neighbourhood selected</option>
+    <option value='*'>All neighbourhoods</option>
+<option value="Alameda Point">Alameda Point</option>
+<option value="Alamo Square">Alamo Square</option>
+<option value="Anza Vista">Anza Vista</option>
+<option value="Ashbury Heights">Ashbury Heights</option>
+<option value="Baja Noe">Baja Noe</option>
+<option value="Balboa Terrace">Balboa Terrace</option>
+<option value="Bayview District">Bayview District</option>
+<option value="Bayview Heights">Bayview Heights</option>
+<option value="Bernal Heights North">Bernal Heights North</option>
+<option value="Bernal Heights South">Bernal Heights South</option>
+<option value="Bernal Heights">Bernal Heights</option>
+<option value="Buena Vista Park">Buena Vista Park</option>
+<option value="Cathedral Hill">Cathedral Hill</option>
+<option value="Cayuga Terrace">Cayuga Terrace</option>
+<option value="Central Richmond">Central Richmond</option>
+<option value="Central Sunset">Central Sunset</option>
+<option value="Central Waterfront">Central Waterfront</option>
+<option value="Chinatown">Chinatown</option>
+<option value="Civic Center">Civic Center</option>
+<option value="Clarendon Heights">Clarendon Heights</option>
+<option value="Cole Valley">Cole Valley</option>
+<option value="Corona Heights">Corona Heights</option>
+<option value="Cow Hollow">Cow Hollow</option>
+<option value="Crocker">Crocker</option>
+<option value="Crocker-Amazon">Crocker-Amazon</option>
+<option value="Deco Ghetto">Deco Ghetto</option>
+<option value="Diamond Heights">Diamond Heights</option>
+<option value="Doelger City">Doelger City</option>
+<option value="Dogpatch">Dogpatch</option>
+<option value="Dolores Heights">Dolores Heights</option>
+<option value="Downtown">Downtown</option>
+<option value="Duboce Triangle">Duboce Triangle</option>
+<option value="Eureka Valley Dolores Heights">Eureka Valley Dolores Heights</option>
+<option value="Eureka Valley">Eureka Valley</option>
+<option value="Excelsior">Excelsior</option>
+<option value="Financial District South">Financial District South</option>
+<option value="Financial District">Financial District</option>
+<option value="Fisherman's Wharf">Fisherman's Wharf</option>
+<option value="Forest Hill">Forest Hill</option>
+<option value="Forest Knolls">Forest Knolls</option>
+<option value="Fort Winfield Scott">Fort Winfield Scott</option>
+<option value="French Quarter">French Quarter</option>
+<option value="Glen Park">Glen Park</option>
+<option value="Glenridge">Glenridge</option>
+<option value="Golden Gate Heights">Golden Gate Heights</option>
+<option value="Golden Gate Park">Golden Gate Park</option>
+<option value="Haight-Ashbury">Haight-Ashbury</option>
+<option value="Hayes Valley">Hayes Valley</option>
+<option value="Hunters Point">Hunters Point</option>
+<option value="India Basin">India Basin</option>
+<option value="Ingleside Heights">Ingleside Heights</option>
+<option value="Ingleside Terrace">Ingleside Terrace</option>
+<option value="Ingleside">Ingleside</option>
+<option value="Inner Mission">Inner Mission</option>
+<option value="Inner Parkside">Inner Parkside</option>
+<option value="Inner Richmond">Inner Richmond</option>
+<option value="Inner Sunset">Inner Sunset</option>
+<option value="Inset">Inset</option>
+<option value="Intermission">Intermission</option>
+<option value="Jackson Square">Jackson Square</option>
+<option value="Japantown">Japantown</option>
+<option value="Laguna Honda">Laguna Honda</option>
+<option value="Lake Shore">Lake Shore</option>
+<option value="Lake">Lake</option>
+<option value="Laurel Heights">Laurel Heights</option>
+<option value="Little Hollywood">Little Hollywood</option>
+<option value="Little Italy">Little Italy</option>
+<option value="Little Osaka">Little Osaka</option>
+<option value="Little Russia">Little Russia</option>
+<option value="Little Saigon">Little Saigon</option>
+<option value="Lone Mountain">Lone Mountain</option>
+<option value="Lower Haight">Lower Haight</option>
+<option value="Lower Nob Hill">Lower Nob Hill</option>
+<option value="Lower Pacific Heights">Lower Pacific Heights</option>
+<option value="Malcolm X Square">Malcolm X Square</option>
+<option value="Marcus Garvey Square">Marcus Garvey Square</option>
+<option value="Marina District">Marina District</option>
+<option value="Martin Luther King Square">Martin Luther King Square</option>
+<option value="Merced Heights">Merced Heights</option>
+<option value="Merced Manor">Merced Manor</option>
+<option value="Midtown Terrace">Midtown Terrace</option>
+<option value="Mint Hill">Mint Hill</option>
+<option value="Miraloma Park">Miraloma Park</option>
+<option value="Mission Bay">Mission Bay</option>
+<option value="Mission District">Mission District</option>
+<option value="Mission Dolores">Mission Dolores</option>
+<option value="Mission Terrace">Mission Terrace</option>
+<option value="Monterey Heights">Monterey Heights</option>
+<option value="Mount Davidson Manor">Mount Davidson Manor</option>
+<option value="NOMA">NOMA</option>
+<option value="Nob Hill">Nob Hill</option>
+<option value="Noe Valley">Noe Valley</option>
+<option value="North Beach">North Beach</option>
+<option value="North Panhandle">North Panhandle</option>
+<option value="North Waterfront">North Waterfront</option>
+<option value="Oceanview">Oceanview</option>
+<option value="Opera Plaza">Opera Plaza</option>
+<option value="Outer Mission">Outer Mission</option>
+<option value="Outer Parkside">Outer Parkside</option>
+<option value="Outer Richmond">Outer Richmond</option>
+<option value="Outer Sunset">Outer Sunset</option>
+<option value="Outset">Outset</option>
+<option value="Pacific Heights">Pacific Heights</option>
+<option value="Park Merced">Park Merced</option>
+<option value="Park View Commons">Park View Commons</option>
+<option value="Parkmerced">Parkmerced</option>
+<option value="Parkside">Parkside</option>
+<option value="Polk Gulch">Polk Gulch</option>
+<option value="Portola">Portola</option>
+<option value="Potrero Flats">Potrero Flats</option>
+<option value="Potrero Hill">Potrero Hill</option>
+<option value="Prescott">Prescott</option>
+<option value="Presidio Heights">Presidio Heights</option>
+<option value="Presidio Terrace">Presidio Terrace</option>
+<option value="Presidio">Presidio</option>
+<option value="Richmond District">Richmond District</option>
+<option value="Rincon Hill">Rincon Hill</option>
+<option value="Russian Hill">Russian Hill</option>
+<option value="SOMISSPO">SOMISSPO</option>
+<option value="Saint Francis Wood">Saint Francis Wood</option>
+<option value="Sea Cliff">Sea Cliff</option>
+<option value="Sherwood Forest">Sherwood Forest</option>
+<option value="Silver Terrace">Silver Terrace</option>
+<option value="South Basin">South Basin</option>
+<option value="South Beach">South Beach</option>
+<option value="South Of Market">South Of Market</option>
+<option value="Southern Hills">Southern Hills</option>
+<option value="St Marys Square">St Marys Square</option>
+<option value="St. Francis Square">St. Francis Square</option>
+<option value="St. Francis Wood">St. Francis Wood</option>
+<option value="Stonestown">Stonestown</option>
+<option value="Sunnydale">Sunnydale</option>
+<option value="Sunnyside">Sunnyside</option>
+<option value="Sunset District">Sunset District</option>
+<option value="Sutro Heights">Sutro Heights</option>
+<option value="Telegraph Hill">Telegraph Hill</option>
+<option value="Tenderloin">Tenderloin</option>
+<option value="The Castro">The Castro</option>
+<option value="The Hub">The Hub</option>
+<option value="Thomas Paine Square">Thomas Paine Square</option>
+<option value="Top of the Hill">Top of the Hill</option>
+<option value="Transmission">Transmission</option>
+<option value="Twin Peaks West">Twin Peaks West</option>
+<option value="Twin Peaks">Twin Peaks</option>
+<option value="Union Square">Union Square</option>
+<option value="Upper Market">Upper Market</option>
+<option value="Van Ness">Van Ness</option>
+<option value="Victoria Mews">Victoria Mews</option>
+<option value="Visitacion Valley">Visitacion Valley</option>
+<option value="Vista del Monte">Vista del Monte</option>
+<option value="West Portal">West Portal</option>
+<option value="West of Twin Peaks">West of Twin Peaks</option>
+<option value="Western Addition">Western Addition</option>
+<option value="Westlake and Olympic">Westlake and Olympic</option>
+<option value="Westwood Highlands">Westwood Highlands</option>
+<option value="Zion District">Zion District</option>
+
+                </select>
+
+                <select id="kate" class="form-control">
+                    <option value="alle" selected="*">KATEGORIE: Alle</option>
+                    <option value="playground">Spielplatz</option>
+                    <option value="indoorplay">Indoor-Spielplatz</option>
+                    <option value="outdoorplay">Outdoor-Spielplatz</option>
+                    <option value="bildung">Bildung</option>                                                                        
+                    <option value="kita">KITA</option>
+                </select>
+
+
+                </div>
+            </div>
+        
+       <!--********************************************************************************************************  -->
+       <!--******************************************************************************************************** -->
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Search</h3>
+                    <span class="pull-right clickable"><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                <div class="panel-body">
+                
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input type="text" class="form-control" id="query" placeholder=" Suchbegriff" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-danger" type="button" id="Lupe">
+                            <span class=" glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+
+
+        <label>Treffermaximum: </label>
+        <input type="text" class="form-control" id="obergrenze" placeholder="10" style="display:inline;">
+        <br>
+        <h3>Suchoptionen</h3>
+        <form name="suchops">
+            <div class="row"> 
+                <div class="col-sm-12 col-md-6">
+                    <div class="form-group input-group">
+                        <span class="input-group-btn"><button type="button" class="btn btn-default btn-add">+</button></span>
+                        <select id="addli0" class="form-control" onchange="uic.setOptions(document.suchops.addli0.options[document.suchops.addli0.selectedIndex].value, 0);">
+                            <option value=" " selected="selected">Auswahl:</option>
+                    <option value="1" data-icon="glyphicon-euro">Preis</option>
+                    <option value="2" data-icon="glyphicon-cloud">Wetter</option>
+                    <option value="3" data-icon="glyphicon-cutlery">Alter</option>
+                        </select>
+                    </div>
+        </div>
+                <div class="col-sm-12 col-md-6"> 
+                    <div class="form-group input-group">
+                        <select id="addre0" class="form-control">
+                            <option value=" " selected="selected"><--</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>            
+</div>
+    </div>
+
+  	</nav>
+
+
+	<div id="map"> 
+		<div id="map-canvas" class="map-canvas"></div>
+	</div>
+	<br>
+	<!-- ------------------------------------------------------------------------------- -->
+	<input type='hidden' id='current_page' />
+	<input type='hidden' id='show_per_page' />
+	<input type='hidden' id='maxpage' />
+	
+	
+    <div id="tabelle">
+       <div class="row"> 
+     <div class="col-sm-12 col-md-6">
+		 <input type="text" class="form-control" placeholder="Suchergebnis filtern" id="such" style="display:inline;"></input>
+	</div>
+	<div class="col-sm-12 col-md-6">
+		<button type="button" id="trashunten" class="btn btn-small btn-lg glyphicon glyphicon-trash" style="display:inline;"></button>
+	</div>
+	</div>
+  <!-- style="display:inline;"   /> -->
+        <table id="ergebnistabelle">
+        	<thead id='tableHead'>
+        	</thead>
+
+        	<tbody id="dataTable">
+        	</tbody>
+        </table>
+        <br>
+		<div id='paginierung' style='display:inline;'>
+			<a class="previous_link glyphicon glyphicon-circle-arrow-left" href="javascript:uic.previous();"></a>
+			<div class="btn-group">
+     	    <button data-toggle="dropdown" class="btn btn-default dropdown-toggle glyphicon glyphicon-chevron-down" id='mitte'></button>
+            <ul class="dropdown-menu">
+             <!--   <li><a href="#">Action</a></li> -->
+            </ul>
+            </div>
+		
+			<a class="next_link glyphicon glyphicon-circle-arrow-right" href="javascript:uic.next();"></a>
+		</div>
+    </div>
+	<br>
+
+    <!-- ------------------------------------------------------------------------------- -->
+ 
+ <div class="container" id="eintrag">
+        <div class="row" id="oberst">
+   
+    
+   
+            <div class="panel panel-primary">
+                <div class="panel-heading clickable" id="ortseintrag">
+                    
+			
+ <h2 class="panel-title"><a ><span class="glyphicon glyphicon-map-marker" ></span>Add a new <b>place</b></a></h2>			
+			
+                    <span class="pull-right "><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" id="bez" class="form-control" placeholder="Name" tabindex="1">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-6">
+                                        <div class="form-group">
+                                            <select class="form-control" id="kat">
+                                                <option>Category</option>
+                                                <option>Restaurant</option>
+                                                <option>Playground</option>
+                                                <option>Cinema</option>
+                                                <option>Supermarket</option>
+                                                <option>Bar</option>                                             
+                                                <option>Other</option>                      
+                                            </select>
+                                        </div>
+                                    </div>  
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6">
+                                        <div class="form-group">
+                                            <input id="ort1" type="text" class="form-control" placeholder="Street" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3">
+                                        <div class="form-group">
+                                            <input id="ort2" type="text" class="form-control" id="tags" placeholder="House#" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3">
+                                        <div class="form-group">
+                                            <input id="ort3" type="text" class="form-control" id="tags" placeholder="Area#" />
+                                        </div>
+                                    </div>                                
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="form-group">
+                                            <textarea id="descr" class="form-control" placeholder="Add additional remarks (Description, review, ...) here" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6">
+                                        <div class="form-group">
+                                            <button type="button" id="speichern" class="btn btn-success btn-md">Store this place</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <div class="form-group">
+                                            <button type="button" id="trasheintrag" class="btn btn-default btn-lg glyphicon glyphicon-trash" style="display:inline;"></button>
+                                        </div>
+                                    </div>
+                                </div>      
+                            </form>
+                        </div>
+            </div>
+      
+	<!-- ------------------------------------------------------------------------------- -->
+   
+            <div class="panel panel-primary">
+                <div class="panel-heading clickable">
+  <h2 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-calendar"></span>Add a new <b>event</b></a></h2>
+                    <span class="pull-right "><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+       <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <div class="form-group">
+                                        <input id="bezII" type="text" class="form-control" placeholder="Namen hier eintragen" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6">
+                                    <div class="form-group">
+                                        <input id="beginn" type="text" class="form-control" id="tags" placeholder="Beginn" />
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-6">
+                                    <div class="form-group">
+                                        <input id="ende" type="text" class="form-control" id="tags" placeholder="Ende" />
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+            </div>
+   
+	 <!-- ------------------------------------------------------------------------------- -->
+       
+            <div class="panel panel-primary">
+                <div class="panel-heading clickable">
+                        <h2 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-user"></span>Add a new <b>service</b></a></h2>
+
+                    <span class="pull-right "><i class="glyphicon glyphicon-minus"></i></span>
+                </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <div class="form-group">
+                                        <input id="person" type="text" class="form-control" placeholder="Namen hier eintragen" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-sm-6">
+                                    <div class="form-group">
+                                        <select class="form-control" id="categoryIII">
+                                            <option>Babysitter</option>
+                                            <option>Windeln</option>
+                                            <option>Andere</option>
+                                        </select>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+            </div>
+       
+
+        </div>
+</div>
+</body>
+</html>
